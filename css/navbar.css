@@ -1,0 +1,37 @@
+.container {
+    height: 70px;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: silver; */
+    background-image: linear-gradient(to bottom, rgb(130, 198, 236), rgb(0, 119, 255));
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.container h2 {
+    margin: 0%;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px gainsboro;
+}
+
+.container nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 24px;
+}
+
+.top-nav-menu {
+    text-decoration: none;
+    color: black;
+}

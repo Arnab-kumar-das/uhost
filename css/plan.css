@@ -1,0 +1,92 @@
+#content-info {
+    margin: auto;
+    font-style: oblique;
+    font-size: 40px;
+    text-align: center;
+    color: green;
+}
+
+.package {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.package-list {
+    width: 300px;
+    /* height: 500px; */
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+}
+
+.package-list * {
+    padding: 5px;
+}
+
+#free-pack, #premiume-pack {
+    height: 500px;
+    border: 1px solid rgb(103, 221, 103);
+    box-shadow: 5px 5px 2px rgb(136, 182, 136);
+    background-image: linear-gradient(to bottom, rgb(207, 247, 207), rgb(152, 219, 152));
+}
+
+#recomended-pack {
+    height: 550px;
+    border: 2px solid green;
+    box-shadow: 10px 10px 4px rgb(94, 143, 94);
+    background-image: linear-gradient(to bottom, lightgreen, green);
+}
+
+h3.important, h4.important {
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px rgb(51, 78, 51);
+    color: green;
+    background-color: white;
+}
+
+#recomended-pack .not-important {
+    color: white;
+}
+
+#free-pack .not-important, #premiume-pack .not-important {
+    color: rgb(0, 0, 0);
+}
+
+#free-pack p.not-important {
+    font-size: 18px;
+}
+
+h4.not-important, h5.not-important {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h2.not-important {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+p.not-important {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.price {
+    font-size: 24px;
+    color: darkgreen;
+}
+
+input[type="submit"] {
+    background-color: rgb(2, 51, 2);
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px grey;
+    color: white;
+    /* font-size: 0%; */
+    font-weight: bold;
+}

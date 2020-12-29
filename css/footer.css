@@ -1,0 +1,27 @@
+footer {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.other-info {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social {}
+
+.social img {
+    width: 100px;
+}

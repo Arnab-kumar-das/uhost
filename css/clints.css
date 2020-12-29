@@ -1,0 +1,63 @@
+.client-heading {
+    height: min-content;
+    width: max-content;
+    margin: auto;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    color: darkblue;
+}
+
+p.msg-to-client {
+    width: max-content;
+    padding: 0%;
+    margin: 20px auto 0px auto;
+    font-size: 22px;
+    color: teal;
+    font-style: italic;
+    /* text-shadow: 2px 2px 1px greenyellow; */
+}
+
+.clients-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: bisque; */
+}
+
+.sub-clients {
+    height: 400px;
+    width: 250px;
+    background-image: linear-gradient(to right bottom, #f2f2f2, #a1b2c3);
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px #c2bfbf;
+    margin-top: 80px;
+}
+
+.sub-clients p {
+    width: max-content;
+    margin: 100px auto;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.client-logo {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: -50px auto 0px auto;
+    background-image: linear-gradient(red, orange);
+}
+
+.client-logo h2 {
+    font-size: 50px;
+    color: white;
+}
