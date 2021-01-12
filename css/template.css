@@ -11,9 +11,15 @@
 
 .pic-caption {
     position: absolute;
-    top: 100px;
-    left: 50vh;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*because the parent position is relative*/
+    height: 100%;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pic-caption {
